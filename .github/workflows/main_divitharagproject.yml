@@ -48,29 +48,29 @@ jobs:
       
 
   deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    permissions:
-      id-token: write #This is required for requesting the JWT
-      contents: read #This is required for actions/checkout
+  runs-on: ubuntu-latest
+  needs: build
 
-    steps:
-      - name: Download artifact from build job
-        uses: actions/download-artifact@v4
-        with:
-          name: python-app
-      
-      - name: Login to Azure
-        uses: azure/login@v2
-        with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_81F6582AC76B484A82C2C0ADAC851047 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_BB16EC58B5BC4337850F4A8B0A1C501F }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_1785450E597F46D283E4E20191BF56E8 }}
+  permissions:
+    id-token: write
+    contents: read
 
-      - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v3
-        id: deploy-to-webapp
-        with:
-          app-name: 'divitharagproject'
-          slot-name: 'Production'
-          
+  steps:
+    - name: Download artifact from build job
+      uses: actions/download-artifact@v4
+      with:
+        name: python-app
+
+    - name: Login to Azure
+      uses: azure/login@v2
+      with:
+        client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_81F6582AC76B484A82C2C0ADAC851047 }}
+        tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_BB16EC58B5BC4337850F4A8B0A1C501F }}
+        subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_1785450E597F46D283E4E20191BF56E8 }}
+
+    - name: Deploy to Azure Web App
+      uses: azure/webapps-deploy@v3
+      with:
+        app-name: divitharagproject
+        slot-name: Production
+        package: .
