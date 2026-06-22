@@ -6,3 +6,5 @@ __pycache__/
 venv/
 
 vector_db/
+chat_history.pdf
+logs/
