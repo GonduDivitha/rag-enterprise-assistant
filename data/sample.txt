@@ -1,0 +1,5 @@
+Artificial Intelligence is transforming industries.
+
+Retrieval Augmented Generation combines search with language models.
+
+This is a sample document for testing.

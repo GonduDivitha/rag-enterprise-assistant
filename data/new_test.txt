@@ -1,0 +1,26 @@
+TechNova Solutions is a global technology company.
+
+Services Offered:
+1. Cloud Computing Solutions
+2. Cybersecurity Consulting
+3. Artificial Intelligence Development
+4. Machine Learning Services
+5. Data Engineering
+6. Business Intelligence & Analytics
+7. Enterprise Software Development
+
+Headquarters:
+Bangalore, India
+
+Industries Served:
+- Healthcare
+- Finance
+- Retail
+- Manufacturing
+
+Key Clients:
+ABC Bank
+Global Health Systems
+RetailMart
+
+TechNova Solutions helps organizations modernize their infrastructure, improve security, and leverage AI-driven business insights.

@@ -1,0 +1,85 @@
+ABC Technologies Employee Policy Handbook
+
+Company Overview
+
+ABC Technologies is a global software development company specializing in Artificial Intelligence, Cloud Computing, Data Analytics, and Enterprise Software Solutions. The company was founded in 2015 and currently employs over 2,000 professionals worldwide.
+
+Working Hours
+
+Employees are expected to work 8 hours per day. Standard working hours are from 9:00 AM to 6:00 PM, Monday through Friday. Flexible work arrangements may be approved by managers.
+
+Leave Policy
+
+Employees are entitled to:
+
+* 20 annual paid leave days per year
+* 12 sick leave days per year
+* 10 public holidays
+
+Unused annual leave can be carried forward for up to one year.
+
+Remote Work Policy
+
+Employees may work remotely up to three days per week with manager approval. Fully remote positions are available for selected teams.
+
+Code of Conduct
+
+All employees must:
+
+* Maintain professional behavior.
+* Respect workplace diversity.
+* Protect company confidential information.
+* Follow cybersecurity best practices.
+
+Cybersecurity Guidelines
+
+Employees must:
+
+* Use multi-factor authentication.
+* Change passwords every 90 days.
+* Never share login credentials.
+* Report suspicious emails immediately.
+
+Performance Reviews
+
+Performance reviews are conducted twice per year:
+
+* Mid-Year Review in June
+* Annual Review in December
+
+Promotion Criteria
+
+Employees are considered for promotion based on:
+
+* Technical skills
+* Leadership ability
+* Project impact
+* Team collaboration
+* Performance review ratings
+
+Training and Development
+
+ABC Technologies provides:
+
+* Online learning platforms
+* Technical certification reimbursement
+* Leadership development programs
+* AI and Data Science workshops
+
+Benefits
+
+Employees receive:
+
+* Health insurance
+* Dental insurance
+* Life insurance
+* Annual performance bonus
+* Employee wellness programs
+
+IT Support
+
+For technical issues, employees should contact the IT Help Desk through the internal support portal or email [support@abctech.com](mailto:support@abctech.com).
+
+Travel Policy
+
+Business travel must be approved by department managers. Employees will be reimbursed for approved travel expenses according to company guidelines.
