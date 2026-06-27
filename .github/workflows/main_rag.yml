@@ -61,6 +61,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'rag'
+          app-name: 'ragassis'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4DD8D0EE57714AF980EFD952566BE3EE }}
