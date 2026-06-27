@@ -4,8 +4,9 @@ __pycache__/
 .env
 
 venv/
+.venv/
 antenv/
 
 vector_db/
-chat_history.pdf
 logs/
+chat_history.pdf
