@@ -10,7 +10,11 @@ def chat(question: str):
 
     try:
 
+        print(f"Received Question: {question}")
+
         result = rag.ask(question)
+
+        print("Answer Generated Successfully")
 
         return {
          "question": str(question),
