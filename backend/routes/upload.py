@@ -3,7 +3,7 @@ from fastapi import APIRouter, UploadFile, File
 import os
 
 router = APIRouter()
-rag = RAGPipeline()
+rag = None
 
 UPLOAD_DIR = "data"
 
